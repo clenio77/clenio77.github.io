@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Site settings
 
 # REQUIRED CHANGES
@@ -25,3 +26,6 @@ include: [_data]
 =======
 theme:  TechFolio #jekyll-theme-midnight
 >>>>>>> 48a33cc9d913a9688ba996d648aa15e80262cd7e
+=======
+
+>>>>>>> 5bb55ae57be8699724df53deac82089aa04c59d1
