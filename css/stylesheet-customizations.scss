@@ -1,0 +1,69 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+
+// Put your custom CSS here if you want to override the defaults.
+// Here are some common customizations for colors
+
+$uh-green-official: #024731; // https://www.hawaii.edu/offices/eaur/graphicsguide.html
+$uh-green: lighten($uh-green-official, 5%);
+$uh-green-light: lighten($uh-green-official, 10%);
+
+// Customize the menubar color
+.ui.menu {
+  background: $uh-green-light;
+
+  a.item {
+    color: white;
+
+    &:hover {
+      color: white;
+      background-color: $uh-green;
+    }
+  }
+
+  a.active.item, a.active.item:hover {
+    color: white;
+    background-color: $uh-green;
+  }
+}
+
+// "Read More" buttons
+a.ui.bottom.attached.button {
+  color: white;
+  background: $uh-green-light;
+
+  &:hover {
+    background: $uh-green;
+  }
+}
+
+// Tag pill boxes
+div.ui.basic.label {
+  color: white;
+  background: $uh-green-light;
+}
+
+// General links
+a {
+  color: $uh-green-light;
+  &:hover {
+    color: $uh-green;
+  }
+}
+
+// Home page buttons (projects, essays, cv, etc)
+.ui.basic.button, .ui.basic.buttons .button {
+  background: $uh-green-light !important;
+  color: white !important;
+
+  &:hover {
+    background: $uh-green !important;
+    color: white !important;
+  }
+}
+
+// Customize the home page icon colors
+.icon-color {
+  color: $uh-green-light;
+}
