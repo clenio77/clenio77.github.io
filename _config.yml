@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 
 # REQUIRED CHANGES
@@ -21,3 +22,6 @@ theme-bio: theme-bio-builtin-2.html
 # YOU NORMALLY NEVER CHANGE THE FOLLOWING
 markdown: kramdown
 include: [_data]
+=======
+theme:  TechFolio #jekyll-theme-midnight
+>>>>>>> 48a33cc9d913a9688ba996d648aa15e80262cd7e
