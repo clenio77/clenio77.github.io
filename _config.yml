@@ -1,6 +1,1 @@
-name: TechFolios
-markdown: kramdown
-url: http://techfolios.github.io
-plugins:
-  - jekyll-gist
-baseurl:
+theme: jekyll-theme-midnight
