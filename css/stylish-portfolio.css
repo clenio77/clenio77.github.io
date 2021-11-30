@@ -235,10 +235,10 @@ h6 {
 }
 
 .portfolio-item .caption {
-  display: flex;
+  display: flexbox;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(109, 24, 158, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -322,13 +322,13 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
+  background-color: #7217bd !important;
   border-color: #1D809F !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
+  background-color: #7217bd !important;
   border-color: #155d74 !important;
 }
 
@@ -353,7 +353,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #7217bd !important;
 }
 
 .text-primary {
